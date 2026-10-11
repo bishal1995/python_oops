@@ -22,3 +22,8 @@ Statis attributes and methocs
 Public, protected and provate access modifiers
 Abstract classses
 
+```mermaid
+graph TD;
+    A[Start] --> B{Is it working?};
+    B -- Yes --> C[Great!];
+    B -- No --> D[Check syntax];
